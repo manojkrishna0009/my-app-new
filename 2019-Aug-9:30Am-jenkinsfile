@@ -5,7 +5,7 @@ node('master'){
     
     stage('Git Clone/Pull'){
         git branch: 'dev', 
-			url: 'https://github.com/javahometech/my-app'
+			url: 'https://github.com/manojkrishna0009/my-app-new.git'
     }
 	
 	stage('Build Docker Image'){
