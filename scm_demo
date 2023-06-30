@@ -4,3 +4,5 @@ node {
     def commitHash = scmVars.GIT_COMMIT
     echo commitHash
 }
+
+this text is for demo purpose only
