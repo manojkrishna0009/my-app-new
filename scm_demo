@@ -4,3 +4,5 @@ node {
     def commitHash = scmVars.GIT_COMMIT
     echo commitHash
 }
+
+ This code is to check hot_fix branch merging
